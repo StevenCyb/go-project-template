@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+# MacOS
+.DS_STORE
+
+# VSCode
+.vscode/configurationCache.log
+.vscode/dryrun.log
+.vscode/targets.log

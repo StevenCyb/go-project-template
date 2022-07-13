@@ -1,0 +1,22 @@
+{
+	"name": "Go",
+	"dockerComposeFile": "docker-compose.yaml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+	"settings": {
+		"go.toolsManagement.checkForUpdates": "local",
+		"go.useLanguageServer": true,
+		"go.gopath": "/go",
+		"go.goroot": "/usr/local/go",
+		"cSpell.diagnosticLevel": "Hint"
+	},
+	"extensions": [
+		"golang.Go",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode",
+		"vivaxy.vscode-conventional-commits",
+		"streetsidesoftware.code-spell-checker"
+	],
+	"forwardPorts": [],
+	"remoteUser": "vscode"
+}
