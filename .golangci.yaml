@@ -74,7 +74,6 @@ linters:
     - stylecheck
     - tagliatelle
     - tenv
-    - testpackage
     - thelper
     - tparallel
     - typecheck
